@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'News Cycle';
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+header {
+	background-image: url('../main_bg.jpg');
+	background-size: cover;
+	background-color: #6CB3D9;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	min-height: 100vh;
+	justify-content: center;
+	font-size: 1rem;
+	}
+	
+nav {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgrey;
+}
+nav li {
+	display: inline;
+	font-size: 2rem;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+nav a {
+	text-decoration: none;
+}
+
+header img {
+	width: 80%;
+	border-style: double;
+	border-width: 20px;
+	border-color: rgb(255,255,255);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+input {
+	margin-left: 0;
+	margin-right: 60%;
+	margin-bottom: 5px;
+}
+
+textarea {
+	margin-left: 0;
+	margin-right: 20%;
+	margin-bottom: 5px;
+	min-height: 60px;
+}
+
+button {
+	width: 100px;
+	height: 40px;
+	background-color: #6CB3D9;
+	color: white;
+	margin-bottom: 30px;
+	border-radius: 5px;
+   border: 1px solid #666;
+}
+h2 {
+	font-size: 2rem;
+	text-align: center;
+}
+#news1 {
+	background-color: #FF7F50;
+	min-height: 100vh;
+}
+ #news1 img {
+	width: 90%;
+	margin-right: 50px;
+	margin-left: 30px;
+	margin-top: 30px;
+
+}
+
+#news1-1 {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#news1-2 {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+#news1-3 {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+#news1-3 img {
+	width: 90%;
+	margin-right: 50px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#Politics {
+	min-height: 100vh;
+	background-color: #00FF7F;
+}
+#pol1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 500px;
+	margin-top: 100px;
+	margin-left: 50px;
+}
+#column li {
+	margin-bottom: 20px;
+}
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-radius: 10px;
+border-spacing: 0;
+text-align: center;
+align-items: center;
+margin-top: 30px;
+min-height: 50vh;
+min-width: 50vh;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+th {
+background: #BCEBDD;
+color: white;
+text-shadow: 0 1px 1px #2D2020;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+th:first-child {
+border-top-left-radius: 10px;
+}
+th:last-child {
+border-top-right-radius: 10px;
+border-right: none;
+}
+td {
+padding: 10px 20px;
+background: #F8E391;
+}
+tr:last-child td:first-child {
+border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+border-right: none;
+}
+h4 {
+	font-size: 2rem;
+	text-align: center;
+}
+#Sport {
+	background-color: #FFFF00;
+	min-height: 100vh;
+}
